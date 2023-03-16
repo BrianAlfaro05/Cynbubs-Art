@@ -3,6 +3,7 @@ html {
 }
 
 body{
+    width: auto;
     background-color: #e4c1f96a;
     background-image: url('https://i.pinimg.com/originals/28/fb/eb/28fbebbc7467dc6688971c83e8d2dfcf.png');
     line-height: 1.0;
