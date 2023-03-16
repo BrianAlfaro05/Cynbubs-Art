@@ -1,0 +1,99 @@
+html {
+    font-size: 18pt;
+}
+
+body{
+    background-color: #e4c1f96a;
+    line-height: 1.0;
+    min-height: var(--viewport-height);
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    justify-content: center;
+    padding: 25px;
+}
+
+.buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button{
+    display: inline-block;
+    width: 7.75rem;
+    height: 2rem;
+    line-height: calc(2rem - 2px);
+    padding: 0 0.5rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.075rem;
+    padding-left: calc(0.075rem + 0.5rem);
+    font-size: 0.625em;
+    font-weight: 400;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #ce0c8a;
+    border: solid 1px #ce0c8a;
+    border-radius: 2.5rem;
+}
+
+.main-content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #dec2fc;
+    font-size: 1.2em;
+    font-weight: 1000;
+}
+
+#cynbubs{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+    color: #fa91d4;
+}
+
+#artist-title{
+    font-size: 1.4em;
+    color: #fa91d4;
+}
+
+#center-content{
+    color: #fa91d4;
+    background-color: #f8eea2c7;
+    border-radius: 2.5rem;
+    line-height: 2.0;
+    padding: 25px;
+}
