@@ -114,3 +114,19 @@ ul{
 .icons li svg{
     fill: #ce0c8a;
 }
+
+
+/******************* SMALL SCREENS **********************/
+@media (max-width: 567px){
+    body{
+        background-image: none;
+    }
+
+    .button{
+        width: 6.5rem;
+    }
+
+    .icons li{
+        padding: 10px;
+    }
+}
