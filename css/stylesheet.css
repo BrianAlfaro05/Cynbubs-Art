@@ -126,6 +126,17 @@ ul{
         width: 6.5rem;
     }
 
+    #cynbubs{
+        visibility: hidden;
+        height: 300px;
+        font-size: 5rem;
+    }
+
+    #cynbubs:before {
+        content:"cynbubs 💖"; 
+        visibility: visible;
+    }
+
     .icons li{
         padding: 10px;
     }
