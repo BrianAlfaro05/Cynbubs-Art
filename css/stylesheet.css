@@ -131,17 +131,17 @@ ul{
 
     #cynbubs{
         visibility: hidden;
-        height: 300px;
+        height: 150px;
         font-size: 5rem;
     }
 
     #cynbubs:before {
-        content:"cynbubs💖"; 
-        
+        content:"cynbubs"; 
         visibility: visible;
     }
 
     .icons li{
         padding: 10px;
+        padding-bottom: 7px;
     }
 }
