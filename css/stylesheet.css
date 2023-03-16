@@ -64,7 +64,6 @@ ul{
     padding-left: calc(0.075rem + 0.5rem);
     font-size: 0.625em;
     font-weight: 400;
-    border-radius: 2.5rem;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
@@ -97,4 +96,21 @@ ul{
     border-radius: 2.5rem;
     line-height: 2.0;
     padding: 25px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 15px;
+}
+
+.icons li{
+    border: solid 2.5px #ce0c8a;
+    border-radius: 2.5rem;
+    padding: 8.5px;
+}
+
+.icons li svg{
+    fill: #ce0c8a;
 }
