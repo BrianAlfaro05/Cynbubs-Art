@@ -184,3 +184,21 @@ section{
         transform: none;
     }
 }
+
+/********************* MEDIUM SCREENS ***********************/
+@media (max-width: 991px){
+    .gallery > div{
+        columns: 4;
+        gap: 10%;
+        padding: 10px;
+    }
+    .gallery img {
+        display:block;
+        transition: 0.25s;
+        margin-bottom: 0.5rem;
+    }
+
+    .gallery img:hover {
+        transform: none;
+    }
+}
