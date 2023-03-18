@@ -154,8 +154,8 @@ ul{
 }
 
 .gallery2 img {
-    width:100%;
-    margin-bottom: auto;
+    width: 30%;
+    margin-bottom: 0.5rem;
     transition: 0.25s;
 }
 
@@ -228,6 +228,10 @@ ul{
         gap: 5%;
         padding: 10px;
     }
+    
+    .gallery2 img{
+        width: 30%;
+    }
 }
 
 /********************* MEDIUM SCREENS **********************/
@@ -236,6 +240,10 @@ ul{
         columns: 4;
         gap: 9%;
         padding: 10px;
+    }
+
+    .gallery2 img{
+        width: 32%;
     }
 }
 
@@ -252,5 +260,9 @@ ul{
 
     .gallery img:hover {
         transform: none;
+    }
+
+    .gallery2 img{
+        width: 32%;
     }
 }
