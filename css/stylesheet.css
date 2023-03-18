@@ -173,14 +173,12 @@ section{
     }
 
     .gallery > div{
-        columns: 4;
-        gap: 1%;
-        padding: 0px;
+        columns: 2;
+        padding: 10px;
     }
     .gallery img {
         display:block;
         transition: 0.25s;
         margin-bottom: 0.5rem;
-        
     }
 }
