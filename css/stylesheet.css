@@ -171,4 +171,16 @@ section{
         padding: 10px;
         padding-bottom: 7px;
     }
+
+    .gallery > div{
+        columns: 4;
+        gap: 1%;
+        padding: 0px;
+    }
+    .gallery img {
+        display:block;
+        transition: 0.25s;
+        margin-bottom: 0.5rem;
+        
+    }
 }
