@@ -55,7 +55,7 @@ ul{
 
 .button{
     display: inline-block;
-    width: 7.75rem;
+    width: 7.77rem;
     height: 2rem;
     line-height: calc(2rem - 2px);
     padding: 0 0.5rem;
@@ -144,8 +144,25 @@ section{
 }
 
 
+/******************* EXTRA-SMALL SCREENS ****************/
+@media (max-width: 430px){
+    .gallery > div{
+        columns: 2;
+        gap: 10%;
+        padding: 10%;
+    }
+    .gallery img {
+        margin-bottom: 0.5rem;
+    }
+
+    .gallery img:hover {
+        transform: none;
+    }
+}
+
+
 /******************* SMALL SCREENS **********************/
-@media (min-width: 320px) and(max-width: 480px){
+@media (min-width: 430px) and (max-width: 480px){
     body{
         background-image: none;
     }
@@ -171,7 +188,8 @@ section{
     }
 
     .gallery > div{
-        columns: 2;
+        columns: 3;
+        gap: 5%;
         padding: 10px;
     }
     .gallery img {
@@ -183,11 +201,12 @@ section{
     }
 }
 
+
 /********************* TABLET SCREENS ***********************/
 @media (min-width: 481px) and (max-width: 768px){
     .gallery > div{
-        columns: 4;
-        gap: 10%;
+        columns: 3;
+        gap: 5%;
         padding: 10px;
     }
 }
