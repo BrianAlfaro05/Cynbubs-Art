@@ -196,11 +196,11 @@ section{
 @media (min-width:769px) and (max-width: 1200px){
     .gallery > div{
         columns: 6;
-        gap: 8%;
+        gap: 6.5%;
         padding: 10px;
     }
     .gallery img {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.2rem;
     }
 
     .gallery img:hover {
