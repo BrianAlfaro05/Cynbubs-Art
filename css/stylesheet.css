@@ -167,6 +167,11 @@ ul{
     transform: scale(1.75);
 }
 
+.footer-image img{
+    width: 47%;
+    margin-top: 10px;
+}
+
 /******************* EXTRA-SMALL SCREENS ****************/
 @media (max-width: 430px){
     body{
@@ -197,6 +202,10 @@ ul{
 
     .gallery img:hover {
         transform: none;
+    }
+
+    .footer-image img{
+        width: 60%;
     }
 }
 
