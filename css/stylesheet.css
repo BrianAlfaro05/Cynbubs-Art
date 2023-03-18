@@ -120,7 +120,7 @@ ul{
 
 
 .gallery {
-    width: auto;
+    width: 100%;
     margin: auto;
 }
   
@@ -137,10 +137,31 @@ ul{
     margin-bottom: 1.25rem;
 }
 
-.gallery img:hover {
-    transform: scale(1.1);
+.container2{
+    margin-top: 25px;
 }
 
+.gallery2{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.gallery2 > div{
+    gap:1.25rem;
+    padding-top:1.25rem;
+}
+
+.gallery2 img {
+    width:100%;
+    margin-bottom: auto;
+    transition: 0.25s;
+}
+
+.gallery2 img:hover {
+    transform: scale(1.75);
+}
 
 /******************* EXTRA-SMALL SCREENS ****************/
 @media (max-width: 430px){
