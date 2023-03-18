@@ -211,15 +211,24 @@ section{
     }
 }
 
+/********************* MEDIUM SCREENS **********************/
+@media (min-width: 768px) and (max-width:991px){
+    .gallery > div{
+        columns: 4;
+        gap: 9%;
+        padding: 10px;
+    }
+}
+
 /********************* LARGE SCREENS ***********************/
-@media (min-width:769px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px){
     .gallery > div{
         columns: 6;
         gap: 6.5%;
         padding: 10px;
     }
     .gallery img {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.3rem;
     }
 
     .gallery img:hover {
