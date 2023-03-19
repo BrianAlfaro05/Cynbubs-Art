@@ -69,10 +69,17 @@ ul{
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
+    color: #7a1556;
+    border: solid 1px #7a1556;
+    border-radius: 2.5rem;
+    transition: all 0.5s ease-out;
+}
+
+.button:hover{
     color: #ce0c8a;
     border: solid 1px #ce0c8a;
-    border-radius: 2.5rem;
 }
+
 
 .main-content{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -170,6 +177,23 @@ ul{
 .footer-image img{
     width: 47%;
     margin-top: 10px;
+}
+
+.transition-fade{
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(0);
+    
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+html.is-leave .transition-fade{
+    opacity: 0;
+    transform: translate(0);
 }
 
 /******************* EXTRA-SMALL SCREENS ****************/
