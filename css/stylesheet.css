@@ -216,7 +216,7 @@ html.is-leave .transition-fade{
     }
 
     .buttons li{
-        width: 6.1rem;
+        width: 6.2rem;
         background-position: 20% 30%;
         background-size: 140px;
         margin-bottom: 0;
@@ -225,7 +225,7 @@ html.is-leave .transition-fade{
 
     .button{
         width: 7rem;
-        font-size: 0.5rem;
+        font-size: 0.49rem;
         line-height: calc(4.84rem - 2px);
     }
 
