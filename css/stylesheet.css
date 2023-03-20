@@ -206,8 +206,27 @@ html.is-leave .transition-fade{
         background-image: url("dwd");
     }
 
+    .navbar{
+        padding-bottom: 0;
+    }
+
+    .buttons{
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .buttons li{
+        width: 6.1rem;
+        background-position: 20% 30%;
+        background-size: 140px;
+        margin-bottom: 0;
+        height: 4.5rem;
+    }
+
     .button{
-        width: 7.3rem;
+        width: 7rem;
+        font-size: 0.46rem;
+        line-height: calc(5rem - 2px);
     }
 
     .image img{
@@ -302,6 +321,10 @@ html.is-leave .transition-fade{
 
 /********************* MEDIUM SCREENS **********************/
 @media (min-width: 768px) and (max-width:991px){
+    .button{
+        line-height: calc(6.25rem - 2px);
+    }
+
     .image img{
         width: 40%;
     }
@@ -319,6 +342,10 @@ html.is-leave .transition-fade{
 
 /********************* LARGE SCREENS ***********************/
 @media (min-width: 992px) and (max-width: 1200px){
+    .button{
+        line-height: calc(6.4rem - 2px);
+    }
+
     .image img{
         width: 30%;
     }
