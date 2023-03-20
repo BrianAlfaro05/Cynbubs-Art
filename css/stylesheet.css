@@ -64,15 +64,15 @@ ul{
     display: inline-block;
     width: 10rem;
     height: 5rem;
-    line-height: calc(5.99rem - 2px);
+    line-height: calc(6.5rem - 2px);
     padding: 0 0.5rem;
     vertical-align: middle;
     text-transform: uppercase;
-    font-family:'Trocchi', serif;
+    font-family: 'Atma', cursive;
     letter-spacing: 0.075rem;
     padding-left: calc(0.075rem + 0.5rem);
-    font-size: 0.65em;
-    font-weight: 750;
+    font-size: 0.82em;
+    font-weight: 600;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
@@ -225,8 +225,8 @@ html.is-leave .transition-fade{
 
     .button{
         width: 7rem;
-        font-size: 0.44rem;
-        line-height: calc(5rem - 2px);
+        font-size: 0.58rem;
+        line-height: calc(4.84rem - 2px);
     }
 
     .image img{
