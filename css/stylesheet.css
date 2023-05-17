@@ -86,7 +86,7 @@ ul{
 
 
 .main-content{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Atma', cursive;
     color: #dec2fc;
     font-size: 1.2em;
     font-weight: 1000;
@@ -98,14 +98,21 @@ ul{
 }
 
 #cynbubs{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Atma', cursive;
     font-size: 4em;
-    color: #fa91d4;
+    color: rgb(204, 60, 214);
+    font-weight: 1000;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 #artist-title{
     font-size: 1.4em;
-    color: #fa91d4;
+    color: rgb(204, 60, 214);
 }
 
 #center-content{
@@ -140,14 +147,12 @@ ul{
 }
   
 .gallery > div {
-    columns: 7;
-    width: auto;
-    gap: 4%;
-    padding: 10px;
+    gap: 1.5rem;
+    padding: 1.0rem;
 }
   
 .gallery img {
-    display:block;
+    width: 10%;
     transition: 0.25s;
     margin-bottom: 1.25rem;
 }
@@ -239,12 +244,12 @@ html.is-leave .transition-fade{
     }
 
     .gallery > div{
-        columns: 2;
-        gap: 10%;
-        padding: 10%;
+        gap: 4rem;
     }
+
     .gallery img {
-        margin-bottom: 15px;
+        width: 3.25rem;
+        margin-bottom: 10px;
     }
 
     .gallery img:hover {
@@ -287,18 +292,6 @@ html.is-leave .transition-fade{
         padding-bottom: 7px;
     }
 
-    .gallery > div{
-        columns: 3;
-        gap: 5%;
-        padding: 10px;
-    }
-    .gallery img {
-        margin-bottom: 0.5rem;
-    }
-
-    .gallery img:hover {
-        transform: none;
-    }
 }
 
 
@@ -306,12 +299,6 @@ html.is-leave .transition-fade{
 @media (min-width: 481px) and (max-width: 768px){
     .image img{
         width: 5%;
-    }
-
-    .gallery > div{
-        columns: 3;
-        gap: 5%;
-        padding: 10px;
     }
     
     .gallery2 img{
@@ -330,9 +317,12 @@ html.is-leave .transition-fade{
     }
 
     .gallery > div{
-        columns: 4;
-        gap: 9%;
-        padding: 10px;
+        gap: 6rem;
+    }
+
+    .gallery img {
+        width: 3.25rem;
+        margin-bottom: 10px;
     }
 
     .gallery2 img{
@@ -348,19 +338,6 @@ html.is-leave .transition-fade{
 
     .image img{
         width: 30%;
-    }
-
-    .gallery > div{
-        columns: 6;
-        gap: 6.5%;
-        padding: 10px;
-    }
-    .gallery img {
-        margin-bottom: 0.3rem;
-    }
-
-    .gallery img:hover {
-        transform: none;
     }
 
     .gallery2 img{
